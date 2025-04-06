@@ -10,7 +10,7 @@ const openai = new OpenAI({
 
 export async function addMessage(messages: message[]) {
   const { userId } = await auth()
-  if (userId != "user_2vLz0vTDLILfNq9lG5BiQQPr868" || !userId) {
+  if (userId != "user_2vMlkJRGFYdbQDxj0qLFmh1iXHR" || !userId) {
     return {
       role: "assistant",
       content: "Sorry, you are not authorized to use this service."
